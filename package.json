@@ -1,0 +1,13 @@
+{
+	"name": "react-renderer",
+	"version": "0.1",
+	"description": "Advanced renderer for ReactJS",
+	"dependencies": {
+		"React": "git://github.com/facebook/react.git"
+	},
+	"author": {
+		"name": "Jeyraof",
+		"email": "jaeyoung@monodiary.net",
+		"url": "http://github.com/jeyraof"
+	}
+}
