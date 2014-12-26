@@ -8,8 +8,8 @@ Rendering utility to prepend, append react-object to container.
 
 ```javascript
 
-var React = require('React');
-var ReactRenderer = require('ReactRenderer');
+var React = require('react');
+var ReactRenderer = require('react-renderer');
 
 var ExampleBox = React.createClass({
   render: function() {

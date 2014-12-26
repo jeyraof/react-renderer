@@ -2,7 +2,7 @@
  * @providesModule ReactRenderer
  */
 
-var React = require('React');
+var React = require('react');
 
 /**
  * @constructor

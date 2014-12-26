@@ -3,11 +3,12 @@
 	"version": "0.1.0",
 	"description": "Advanced renderer for ReactJS",
 	"dependencies": {
-		"React": "git://github.com/facebook/react.git"
+		"react": "^0.12.2"
 	},
 	"author": {
 		"name": "Jeyraof",
 		"email": "jaeyoung@monodiary.net",
 		"url": "http://github.com/jeyraof"
-	}
+	},
+    "main": "./src/ReactRenderer.js"
 }
