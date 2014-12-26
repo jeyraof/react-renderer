@@ -25,6 +25,7 @@ function ReactRenderer(options) {
     while (container.firstChild) {
       container.removeChild(container.firstChild);
     }
+    React.unmountComponentAtNode(container);
   };
 }
 
