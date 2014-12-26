@@ -74,4 +74,5 @@ ReactRenderer.prototype.append = function(element, container, callback) {
 
 
 // Export the singleton instance.
-module.exports = ReactRenderer;
+module.exports = new ReactRenderer();
+module.exports.constructor = ReactRenderer;
