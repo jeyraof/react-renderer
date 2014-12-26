@@ -21,10 +21,10 @@ var ExampleBox = React.createClass({
   }
 });
 
-ReactRenderer.render(<ExampleBox message="render!">, document.getElementById('react-div'));
-ReactRenderer.append(<ExampleBox message="append!">, document.getElementById('react-div'));
-ReactRenderer.prepend(<ExampleBox message="prepend!">, document.getElementById('react-div'));
-ReactRenderer.render(<ExampleBox message="render-2!">, document.getElementById('react-div'));
+ReactRenderer.render(<ExampleBox message="render!"/>, document.getElementById('react-div'));
+ReactRenderer.append(<ExampleBox message="append!"/>, document.getElementById('react-div'));
+ReactRenderer.prepend(<ExampleBox message="prepend!"/>, document.getElementById('react-div'));
+ReactRenderer.render(<ExampleBox message="render-2!"/>, document.getElementById('react-div'));
 ```
 
 or
@@ -48,8 +48,8 @@ var ExampleBox = React.createClass({
   }
 });
 
-rr.render(<ExampleBox message="render!">, document.getElementById('react-div'));
-rr.append(<ExampleBox message="append!">, document.getElementById('react-div'));
-rr.prepend(<ExampleBox message="prepend!">, document.getElementById('react-div'));
-rr.render(<ExampleBox message="render-2!">, document.getElementById('react-div'));
+rr.render(<ExampleBox message="render!"/>, document.getElementById('react-div'));
+rr.append(<ExampleBox message="append!"/>, document.getElementById('react-div'));
+rr.prepend(<ExampleBox message="prepend!"/>, document.getElementById('react-div'));
+rr.render(<ExampleBox message="render-2!"/>, document.getElementById('react-div'));
 ```
