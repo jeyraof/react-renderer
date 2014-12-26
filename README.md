@@ -31,8 +31,8 @@ or
 
 ```javascript
 
-var React = require('React');
-var ReactRenderer = require('ReactRenderer');
+var React = require('react');
+var ReactRenderer = require('react-renderer');
 var rendererParams = {
   wrapperClass: 'boxbox'
 }
